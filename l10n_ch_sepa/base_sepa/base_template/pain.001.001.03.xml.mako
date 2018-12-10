@@ -35,7 +35,7 @@
       <PmtInf>
         <PmtInfId>${line.name}</PmtInfId>
         <PmtMtd>TRF</PmtMtd>
-        <BtchBookg>false</BtchBookg>
+        <BtchBookg>true</BtchBookg>
         <ReqdExctnDt>${line.date > today and line.date or today}</ReqdExctnDt>
         <Dbtr>
           <Nm>${order.user_id.company_id.name}</Nm>\
